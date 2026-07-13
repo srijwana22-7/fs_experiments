@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Login | ANITS Placement</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <div class="header-container">
+            <img src="images/logo.png" alt="ANITS Logo">
+            <div class="header-text">
+                <h1>Anil Neerukonda Institute of Technology & Sciences</h1>
+                <h2>Training & Placement Department Portal</h2>
+            </div>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="register.html">Register</a></li>
+            <li><a href="login.html" class="active">Login</a></li>
+            <li><a href="companies.html">Companies</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <div class="form-wrapper">
+            <!-- Student Authentication Interface Component -->
+            <section class="form-card form-card-login">
+                <h2 style="margin-bottom: 25px; color: var(--primary-color); text-align: center;">Student Login</h2>
+                <form action="#" method="POST">
+                    
+                    <div class="form-group">
+                        <label for="username">Roll Number / Email Address</label>
+                        <input type="text" id="username" placeholder="Enter registration ID" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                        <input type="password" id="password" placeholder="••••••••" required>
+                    </div>
+
+                    <div class="form-group" style="flex-direction: row; gap: 8px; align-items: center; margin-bottom: 15px;">
+                        <input type="checkbox" id="rememberme">
+                        <label for="rememberme" style="margin-bottom: 0; font-weight: 400; cursor: pointer;">Remember account credential</label>
+                    </div>
+
+                    <button type="submit" class="btn" style="width: 100%;">Authenticate Session</button>
+
+                    <div class="form-links">
+                        <a href="#">Forgot Password?</a>
+                        <a href="register.html">New Portal Profile?</a>
+                    </div>
+                </form>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-info">
+                <p>&copy; 2026 Anil Neerukonda Institute of Technology & Sciences (ANITS). All rights reserved.</p>
+                <p>Sangivalasa - 531162, Bheemunipatnam Mandal, Visakhapatnam, Andhra Pradesh.</p>
+            </div>
+            <div class="footer-social">
+                <a href="#">LinkedIn</a>
+                <a href="#">Twitter</a>
+                <a href="#">Official Website</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
